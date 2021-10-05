@@ -1,0 +1,29 @@
+.App__container {
+  display: flex;
+  justify-content: center;
+}
+
+.App__container > div {
+  width: 65%;
+  padding: 1rem 0;
+}
+
+.breadcrumb {
+  font-size: 12px;
+}
+
+.breadcrumb > span {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 2rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.title__results {
+  margin-left: 0.5rem;
+  font-size: 16px;
+}

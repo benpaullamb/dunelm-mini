@@ -1,0 +1,17 @@
+.iconButton {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background: white;
+  border: none;
+  font-size: 12px;
+  color: #424242;
+}
+
+.iconButton > i {
+  font-size: 28px;
+}

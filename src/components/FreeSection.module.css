@@ -1,0 +1,24 @@
+.freeSection {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  background: #f2f9f1;
+  border-top: 2px solid #0b8a00;
+}
+
+.freeSection > div {
+  width: 65%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-size: 14px;
+  color: grey;
+}
