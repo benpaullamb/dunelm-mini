@@ -8,6 +8,8 @@ Rebuilding one page of the Dunelm website in React for practice.
 
 ![Screenshot of the app](./screenshot.png)
 
+Desktop only, not responsive.
+
 ### Built with
 
 - React
