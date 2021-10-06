@@ -1,0 +1,15 @@
+.dropdown {
+  width: 250px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 4px;
+  color: var(--dark);
+}
+
+.sort {
+  margin-right: 0.5rem;
+  font-size: 14px;
+}

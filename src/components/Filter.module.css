@@ -1,0 +1,13 @@
+.filter {
+  padding-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid lightgrey;
+  color: var(--dark);
+}
+
+.icon {
+  font-size: 34px;
+}

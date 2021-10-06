@@ -1,0 +1,41 @@
+.product {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.product:hover {
+  text-decoration: underline;
+}
+
+.image {
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  transition: box-shadow 0.2s;
+}
+
+.image:hover {
+  box-shadow: 0 0 6px 2px lightgrey;
+}
+
+.status {
+  margin-top: 0.5rem;
+  display: block;
+  font-weight: 600;
+}
+
+.statusNew {
+  composes: status;
+  color: #1275ad;
+}
+
+.title {
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.price {
+  margin-top: 0.5rem;
+  display: block;
+  font-weight: 600;
+}

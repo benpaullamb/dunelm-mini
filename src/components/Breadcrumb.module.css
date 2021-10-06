@@ -1,0 +1,9 @@
+.breadcrumb {
+  font-size: 12px;
+  color: var(--dark);
+}
+
+.breadcrumb > span {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
