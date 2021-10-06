@@ -35,6 +35,14 @@ npm i
 npm start
 ```
 
+## Deployment
+
+1. Copy `.env.example` to `.env` to set the environment variables.
+
+2. Run `npm run build`.
+
+3. Push to GitHub for GitHub Pages.
+
 ## Roadmap
 
 No planned features.
